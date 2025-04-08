@@ -1,11 +1,6 @@
 var FIX_URL = "https://incontrolfix-develop.cloud.maxdoro.com/";
-var STYLE_URL = "https://incontrolfix-develop.cloud.maxdoro.com/widget/css/widget.css";
-var SRC_URL = "https://incontrolfix-develop.cloud.maxdoro.com/widget/";
-
-if (window.location.origin == "http://localhost:4200") {
-  var STYLE_URL = "http://localhost:4200/widget/css/widget.css";
-  var SRC_URL = "http://localhost:4200/widget/";
-}
+var STYLE_URL = "https://cdn.jsdelivr.net/gh/maxdorowidget/widget@main/css/widget.css";
+var SRC_URL = "https://cdn.jsdelivr.net/gh/maxdorowidget/widget@tree/main/src";
 
 // Asynchronous helper to load an external CSS file and return a CSSStyleSheet.
 async function loadCSS(url) {
