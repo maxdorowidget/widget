@@ -1,5 +1,5 @@
 var FIX_URL = "https://incontrolfix-develop.cloud.maxdoro.com/";
-var STYLE_URL = "https://cdn.jsdelivr.net/gh/maxdorowidget/widget@339e6aa/css/widget.css";
+var STYLE_URL = "https://cdn.jsdelivr.net/gh/maxdorowidget/widget@931bce5/css/widget.css";
 var SRC_URL = "https://cdn.jsdelivr.net/gh/maxdorowidget/widget@tree/main/src";
 
 // Asynchronous helper to load an external CSS file and return a CSSStyleSheet.
