@@ -1,7 +1,7 @@
 // widget_large.js
 
 var FIX_URL = "https://fix.incontrol.app/";
-var STYLE_URL = "https://cdn.jsdelivr.net/gh/maxdorowidget/widget@931bce5/css/widget.css";
+var STYLE_URL = "https://cdn.jsdelivr.net/gh/maxdorowidget/widget@main/css/widget.min.css";
 var SRC_URL = "https://cdn.jsdelivr.net/gh/maxdorowidget/widget@main/";
 
 // Asynchronous helper to load an external CSS file and return a CSSStyleSheet.
