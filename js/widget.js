@@ -1,6 +1,6 @@
-var FIX_URL = "https://incontrolfix-develop.cloud.maxdoro.com/";
+var FIX_URL = "https://fix.incontrol.app/";
 var STYLE_URL = "https://cdn.jsdelivr.net/gh/maxdorowidget/widget@931bce5/css/widget.css";
-var SRC_URL = "https://cdn.jsdelivr.net/gh/maxdorowidget/widget@tree/main/src";
+var SRC_URL = "https://cdn.jsdelivr.net/gh/maxdorowidget/widget@main/src";
 
 // Asynchronous helper to load an external CSS file and return a CSSStyleSheet.
 async function loadCSS(url) {
@@ -41,7 +41,6 @@ if (!customElements.get("fix-widget")) {
     constructor() {
       super();
       this.attachShadow({ mode: "open" });
-      console.log(this.getAttribute("data-src"));
 
       // Create main container
       const container = document.createElement("div");
